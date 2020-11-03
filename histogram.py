@@ -21,8 +21,8 @@ def main():
 
     ax.set_xlabel(args.x_label)
     ax.set_ylabel(args.y_label)
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
+    #ax.spines['top'].set_visible(False)
+    #ax.spines['right'].set_visible(False)
 
     plt.savefig(args.out_file,bbox_inches='tight')
 
