@@ -129,7 +129,7 @@ J 29854 5212 1132 16083 160 21377 30052 4087 16118 7194
 usage: histogram.py [-h] [--width WIDTH] [--height HEIGHT] --in_file IN_FILE
                     --out_file OUT_FILE --x_label X_LABEL --y_label Y_LABEL
 
-Make a simple scatter plot.
+Make a simple histogram.
 
 optional arguments:
   -h, --help           show this help message and exit

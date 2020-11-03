@@ -6,7 +6,7 @@ import argparse
 import plot_lib
 
 def main():
-    args = plot_lib.get_args('Make a simple scatter plot.')
+    args = plot_lib.get_args('Make a simple histogram.')
 
     V = []
     for l in open(args.in_file):
