@@ -38,6 +38,7 @@ python scatter.py --in_file rand_1_col.txt --out_file s_just_y.png --x_label 'No
 ```
 
 `s_just_y.png`
+
 <img src="/imgs/s_just_y.png" width="50%"/>
 
 ### Two column: X Y
@@ -60,6 +61,7 @@ python scatter.py --in_file rand_2_col.txt --out_file s_x_and_y.png --x_label 'R
 ```
 
 `s_x_and_y.png`
+
 <img src="/imgs/s_x_and_y.png" width="50%"/>
 
 ### Three column: Name X Y
@@ -82,6 +84,7 @@ J 24093 32527
 ```
 
 `s_x_y_and_name.png`
+
 <img src="/imgs/s_x_y_and_name.png" width="50%"/>
 
 ```
@@ -121,6 +124,7 @@ J 29854 5212 1132 16083 160 21377 30052 4087 16118 7194
 ```
 
 `b_rand.png`
+
 <img src="/imgs/b_rand.png" width="50%"/>
 
 ## histogram
@@ -163,4 +167,5 @@ python histogram.py --in_file rand_1_col.txt --out_file h_rand.png --x_label 'Ra
 ```
 
 `h_rand.png`
+
 <img src="/imgs/h_rand.png" width="50%"/>
