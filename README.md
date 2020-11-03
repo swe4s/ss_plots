@@ -1,6 +1,22 @@
-#A set of stupid simple plots.
+# A set of stupid simple plots.
 
 ## scatter plot
+```
+usage: scatter.py [-h] [--width WIDTH] [--height HEIGHT] --in_file IN_FILE
+                  --out_file OUT_FILE --x_label X_LABEL --y_label Y_LABEL
+
+Make a simple scatter plot.
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --width WIDTH        Plot width (defult 3)
+  --height HEIGHT      Plot height (defult 3)
+  --in_file IN_FILE    Input file
+  --out_file OUT_FILE  Output file
+  --x_label X_LABEL    X-axis label
+  --y_label Y_LABEL    Y-axis label
+```
+
 The scatter plot can take files in three formats
 
 ### One column: Y
@@ -22,7 +38,7 @@ python scatter.py --in_file rand_1_col.txt --out_file s_just_y.png --x_label 'No
 ```
 
 `s_just_y.png`
-<img src="/imgs/s_just_y.png" width="100%"/>
+<img src="/imgs/s_just_y.png" width="50%"/>
 
 ### Two column: X Y
 ```
@@ -44,7 +60,7 @@ python scatter.py --in_file rand_2_col.txt --out_file s_x_and_y.png --x_label 'R
 ```
 
 `s_x_and_y.png`
-<img src="/imgs/s_x_and_y.png" width="100%"/>
+<img src="/imgs/s_x_and_y.png" width="50%"/>
 
 ### Three column: Name X Y
 ```
@@ -66,7 +82,23 @@ J 24093 32527
 ```
 
 `s_x_y_and_name.png`
-<img src="/imgs/s_x_y_and_name.png" width="100%"/>
+<img src="/imgs/s_x_y_and_name.png" width="50%"/>
+
+```
+usage: box.py [-h] [--width WIDTH] [--height HEIGHT] --in_file IN_FILE
+              --out_file OUT_FILE --x_label X_LABEL --y_label Y_LABEL
+
+Make a simple box plot.
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --width WIDTH        Plot width (defult 3)
+  --height HEIGHT      Plot height (defult 3)
+  --in_file IN_FILE    Input file
+  --out_file OUT_FILE  Output file
+  --x_label X_LABEL    X-axis label
+  --y_label Y_LABEL    Y-axis label
+```
 
 ## box plot
 The box plotter takes files where each line is the box name followed by numerical values
@@ -89,9 +121,26 @@ J 29854 5212 1132 16083 160 21377 30052 4087 16118 7194
 ```
 
 `b_rand.png`
-<img src="/imgs/b_rand.png" width="100%"/>
+<img src="/imgs/b_rand.png" width="50%"/>
 
 ## histogram
+
+```
+usage: histogram.py [-h] [--width WIDTH] [--height HEIGHT] --in_file IN_FILE
+                    --out_file OUT_FILE --x_label X_LABEL --y_label Y_LABEL
+
+Make a simple scatter plot.
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --width WIDTH        Plot width (defult 3)
+  --height HEIGHT      Plot height (defult 3)
+  --in_file IN_FILE    Input file
+  --out_file OUT_FILE  Output file
+  --x_label X_LABEL    X-axis label
+  --y_label Y_LABEL    Y-axis label
+```
+
 The histogram plotter takes files with one numberical value per line.
 
 ```
@@ -114,4 +163,4 @@ python histogram.py --in_file rand_1_col.txt --out_file h_rand.png --x_label 'Ra
 ```
 
 `h_rand.png`
-<img src="/imgs/h_rand.png" width="100%"/>
+<img src="/imgs/h_rand.png" width="50%"/>
