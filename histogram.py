@@ -11,7 +11,8 @@ def main():
     V = []
     for l in open(args.in_file):
         A = l.rstrip().split()
-        V.append(float(A[0]))
+        for a in A:
+            V.append(float(a))
 
     fig = plt.figure(figsize=(args.width,args.height),dpi=300)
 
